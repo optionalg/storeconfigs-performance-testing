@@ -1,0 +1,8 @@
+This repository exists solely to provide some simple tests for
+StoreConfigs performance.  It serves no functional purpose
+and all included configurations exist merely to provide sufficient
+complication for testing.
+
+Run 'rake' to create a simple collection of 'notify' instances
+and store it in an sqlite3 database.  Must have sqlite3 and
+necessary Ruby drivers, along with ActiveRecord 2.0 installed.
